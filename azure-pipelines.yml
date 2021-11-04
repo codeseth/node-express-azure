@@ -1,9 +1,6 @@
 trigger:
 - master
 
-pool:
-  vmImage: Default
-
 steps:
 - task: NodeTool@0
   inputs:
